@@ -5,10 +5,7 @@
     padding: auto;
 }
 
-img:hover{
-    border: 10px solid aqua;
 
-}
 
 .nav {
     background-color:rgb(99, 220, 241);;
@@ -112,4 +109,36 @@ body{
 
 .button{
     margin: 20px;
+}
+
+.property:hover {
+    border:5px solid rgb(99, 220, 241);
+    
+}
+
+button {
+    display:none;
+}
+
+.property:hover + button.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(99, 220, 241);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.phototitle {
+    display:inline-flex;
+}
+
+.button {
+    display:inline;
 }
