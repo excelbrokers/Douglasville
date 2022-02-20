@@ -1,0 +1,144 @@
+.property img {
+    max-height: auto;
+    max-width: 100%;
+    margin: auto;
+    padding: auto;
+}
+
+
+
+.nav {
+    background-color:rgb(99, 220, 241);;
+    
+    margin:auto;
+    padding:0;
+    vertical-align: center;
+
+    overflow: hidden;
+    text-align: center;
+}
+
+.nav ul{
+    list-style-type: none;
+    margin: auto;
+
+}
+
+.nav li{
+    float:left;
+    color: white;
+    padding: .5rem;
+    text-align: center;
+
+}
+
+li:hover {
+    background-color: black;
+    z-index-1;
+}
+
+.header img {
+    display: inline-block;
+    height: 10rem;
+
+}
+
+.header {
+    background-color: aqua;
+    height: 10rem;
+    vertical-align: middle;
+
+    display: flex;
+
+    
+
+}
+
+.header h1{
+    display: inline;
+    width: 100%;
+    padding-left: 3rem;
+    padding-top: 1.5rem;
+}
+
+body{
+    font-family: Asap, Arial, sans-serif;
+}
+
+.grid {
+    display:grid;
+    max-width: 1200px;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    grid-gap: 2rem;
+}
+
+
+
+.footer {
+    grid-area: footer;
+    text-align: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(99, 220, 241);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {
+    background-color: black;
+    color:white;
+    
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button{
+    margin: 20px;
+}
+
+.property:hover {
+    border:5px solid rgb(99, 220, 241);
+    
+}
+
+button {
+    display:none;
+}
+
+.property:hover + button.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(99, 220, 241);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.phototitle {
+    display:inline-flex;
+}
+
+.button {
+    display:inline;
+}
